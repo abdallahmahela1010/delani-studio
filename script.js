@@ -1,0 +1,10 @@
+$(document).ready(function(){
+    $("#design-img").click(function(){
+        $("#design-img").slidedown('1400').hide("1000");
+        $("#design").show('1400');
+    });
+    $("#design").click(function(){
+        $("#design").slideup('1400').hide("1000");
+        $("#design-img").slidedown('1400');
+    });
+});
